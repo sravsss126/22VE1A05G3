@@ -1,9 +1,11 @@
 # 22VE1A05G3
 
 Frontend Project
+
 This project is a React application built with Vite. 
 
 Dependencies
+
 This project uses the following key dependencies:
 
 React: A JavaScript library for building user interfaces.
