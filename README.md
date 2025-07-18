@@ -4,6 +4,7 @@ Frontend Project
 
 This project is a React application built with Vite. 
 
+
 Dependencies
 
 This project uses the following key dependencies:
@@ -20,11 +21,14 @@ Axios: Promise-based HTTP client for the browser and Node.js.
 
 @mui/material: React components for faster and easier web development.
 
+
 Development
 To start the development server, run:
 
+
 npm install
 npm run dev
+
 
 This will open your application in development mode, typically at http://localhost:5173. Any changes you make to the source code will be hot-reloaded.
 
