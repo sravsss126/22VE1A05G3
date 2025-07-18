@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #1976d2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.MuiBox-root {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.MuiTypography-h4 {
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+}
+
+.MuiTextField-root {
+  background-color: #fafafa;
+}
+
+.MuiButton-contained {
+  background-color: #1976d2;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background-color: #145ea8;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  .MuiBox-root {
+    padding: 16px;
+  }
+}
